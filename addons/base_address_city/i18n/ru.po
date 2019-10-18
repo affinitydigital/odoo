@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Martin Trigaux, 2019
+# Anton Ilchenko, 2019
 # 
 msgid ""
 msgstr ""
@@ -27,12 +28,14 @@ msgid ""
 "Check this box to ensure every address created in that country has a 'City' "
 "chosen in the list of the country's cities."
 msgstr ""
+"Отметьте здесь, чтобы требовать, чтобы в каждом адресе в этой стране было заполнено\n"
+"поле 'Город', который выбран из списка городов."
 
 #. module: base_address_city
 #: model:ir.actions.act_window,name:base_address_city.action_res_city_tree
 #: model_terms:ir.ui.view,arch_db:base_address_city.view_res_country_city_extended_form
 msgid "Cities"
-msgstr ""
+msgstr "Города"
 
 #. module: base_address_city
 #: code:addons/base_address_city/models/res_partner.py:55
@@ -47,7 +50,7 @@ msgstr "Город"
 #: model:ir.model.fields,field_description:base_address_city.field_res_partner__city_id
 #: model:ir.model.fields,field_description:base_address_city.field_res_users__city_id
 msgid "City of Address"
-msgstr ""
+msgstr "Город по адресу"
 
 #. module: base_address_city
 #: model:ir.model,name:base_address_city.model_res_partner
@@ -82,13 +85,16 @@ msgid ""
 "                your partner records. Note that an option can be set on each country separately\n"
 "                to enforce any address of it to have a city in this list."
 msgstr ""
+"Отображение и управление списками городов, которые могут быть назначены\n"
+"     вашей партнёрской записи. Эта опция может быть выставлена индивидуально для каждой страны\n"
+"     чтобы требовать наличия города в этом списке.\n"
 
 #. module: base_address_city
 #: model:ir.model.fields,field_description:base_address_city.field_res_country__enforce_cities
 #: model:ir.model.fields,field_description:base_address_city.field_res_partner__country_enforce_cities
 #: model:ir.model.fields,field_description:base_address_city.field_res_users__country_enforce_cities
 msgid "Enforce Cities"
-msgstr ""
+msgstr "Требовать наличие города"
 
 #. module: base_address_city
 #: model:ir.model.fields,field_description:base_address_city.field_res_city__id
@@ -118,7 +124,7 @@ msgstr "Название"
 #. module: base_address_city
 #: model_terms:ir.ui.view,arch_db:base_address_city.view_city_filter
 msgid "Search City"
-msgstr ""
+msgstr "Поиск города"
 
 #. module: base_address_city
 #: model:ir.model.fields,field_description:base_address_city.field_res_city__state_id
